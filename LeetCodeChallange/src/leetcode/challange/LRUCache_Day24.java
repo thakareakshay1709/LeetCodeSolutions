@@ -31,14 +31,14 @@ cache.get(4);       // returns 4
  * @author akshaythakare
  *
  */
-public class LRUCache_Day23 
+public class LRUCache_Day24 
 {
-	Node_Day23 head;
-    Node_Day23 tail;
-    HashMap<Integer, Node_Day23> map = null;
+	Node_Day24 head;
+    Node_Day24 tail;
+    HashMap<Integer, Node_Day24> map = null;
     int cap = 0;
  
-    public LRUCache_Day23(int capacity) 
+    public LRUCache_Day24(int capacity) 
     {
         this.cap = capacity;
         this.map = new HashMap<>();
@@ -51,7 +51,7 @@ public class LRUCache_Day23
             return -1;
         }
         //move to tail
-        Node_Day23 t = map.get(key);
+        Node_Day24 t = map.get(key);
         removeNode(t);
         offerNode(t);
         return t.value;
@@ -61,7 +61,7 @@ public class LRUCache_Day23
     {
         if(map.containsKey(key))
         {
-            Node_Day23 t = map.get(key);
+            Node_Day24 t = map.get(key);
             t.value = value;
  
             //move to tail
@@ -78,13 +78,13 @@ public class LRUCache_Day23
             }
  
             //add to tail
-            Node_Day23 node = new Node_Day23(key, value);
+            Node_Day24 node = new Node_Day24(key, value);
             offerNode(node);
             map.put(key, node);
         }
     }
  
-    private void removeNode(Node_Day23 n)
+    private void removeNode(Node_Day24 n)
     {
         if(n.prev!=null){
             n.prev.next = n.next;
@@ -99,7 +99,7 @@ public class LRUCache_Day23
         }
     }
  
-    private void offerNode(Node_Day23 n)
+    private void offerNode(Node_Day24 n)
     {
         if(tail!=null){
             tail.next = n;

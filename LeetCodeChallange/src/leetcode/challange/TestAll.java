@@ -15,7 +15,7 @@ public class TestAll {
 		//System.out.println(test.lastStoneWeight(arr));
 		
 		
-		LRUCache_Day23 cache = new LRUCache_Day23( 2 /* capacity */ );
+		LRUCache_Day24 cache = new LRUCache_Day24( 2 /* capacity */ );
 
 		cache.put(1, 1);
 		cache.put(2, 2);
