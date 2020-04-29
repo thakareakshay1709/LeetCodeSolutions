@@ -6,7 +6,7 @@ package leetcode.challange;
  * @author akshaythakare
  *
  */
-public class TestAll {
+public class TestAll_AllDays {
 
 	public static void main(String[] args) 
 	{
