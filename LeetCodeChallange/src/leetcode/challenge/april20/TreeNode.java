@@ -1,4 +1,4 @@
-package leetcode.challange;
+package leetcode.challenge.april20;
 
  // Definition for a binary tree node.
  public class TreeNode 

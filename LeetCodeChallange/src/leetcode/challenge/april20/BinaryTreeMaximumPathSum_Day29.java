@@ -1,4 +1,4 @@
-package leetcode.challange;
+package leetcode.challenge.april20;
 
 /**
  * Given a non-empty binary tree, find the maximum path sum.

@@ -1,4 +1,4 @@
-package leetcode.challange;
+package leetcode.challenge.april20;
 
 /**
  * You are given a string s containing lowercase English letters, and a matrix shift, where shift[i] = [direction, amount]:

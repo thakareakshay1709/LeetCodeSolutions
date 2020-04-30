@@ -1,4 +1,4 @@
-package leetcode.challange;
+package leetcode.challenge.april20;
 
 import java.util.HashSet;
 
