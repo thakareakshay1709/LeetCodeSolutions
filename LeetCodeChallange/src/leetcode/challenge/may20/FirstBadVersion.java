@@ -23,6 +23,11 @@ package leetcode.challenge.may20;
  *
  */
 public class FirstBadVersion {
+	
+	public static void main(String[] arg)
+	{
+		System.out.println("Hello");
+	}
 
 	public int firstBadVersion(int n) 
 	{
@@ -54,21 +59,5 @@ public class FirstBadVersion {
 		return false;
 	}
 
-	/**
-	 *  public int firstBadVersion(int n) {
-        int start = 1;
-        int end = n;
-        while (start < end) {
-            int mid = start + (end - start)/2;
-            if (!isBadVersion(mid)) {
-                start = mid + 1;
-            }
-            else {
-                end = mid;
-            }
-        }
-        return start;
-    }  
-} 
-	 */
+
 }
